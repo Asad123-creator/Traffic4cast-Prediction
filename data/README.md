@@ -104,24 +104,3 @@ In addition, `<CITY NAME>_test_additional_<temporal|spatiotemporal>.h5` contains
 the first channel contains `1` indicates the day of week (`0` = Monday, ..., `6` = Sunday) and the second channel the time of day ot the test slot (`0`, ...`240`) in local time.
 
 Notice that the time slots are local and not UTC in previous competitions.
-
-To practice the transfer, participants can generate their own test sets. See `competition/prepare_test_data` for details.
-
-### Movies
-
-It might be helpful to "see" the movies one can make from our data. You can find / generate clips in the [data exploration notebook](data_exploration.ipynb).
-
-
-
-### Blog posts
-
-We also refer to our [blog posts](https://www.iarai.ac.at/traffic4cast/forums/forum/competition/):
-- [Competition Data Details](https://www.iarai.ac.at/traffic4cast/forums/topic/competition-data-details/)
-- [Exploring the Temporal Shift from pre-COVID to in-COVID](https://www.iarai.ac.at/traffic4cast/forums/topic/exploring-the-temporal-shift-from-pre-covid-to-in-covid/)
-- [Exploring the Spatial Data Properties](https://www.iarai.ac.at/traffic4cast/forums/topic/exploring-the-spatial-data-properties/)
-- [Looking into data format](https://www.iarai.ac.at/traffic4cast/forums/topic/looking-into-data-format/)
-- [Looking into the road graph](https://www.iarai.ac.at/traffic4cast/forums/topic/looking-into-the-road-graph/)
-
-### Get your hands dirty!
-
-Continue in the [data exploration notebook](data_exploration.ipynb).
